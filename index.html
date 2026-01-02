@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viral Update | Latest News</title>
+
+    <meta property="og:title" content="Breaking News: Viral Update Inside!" />
+    <meta property="og:description" content="Click here to see the full story and video details." />
+    <meta property="og:image" content="https://i.postimg.cc/m28ZkL8v/viral-thumb.jpg" />
+    <meta property="og:url" content="https://louxx.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <script>
+      // Yeh check karta hai ke user real hai ya Facebook ka bot
+      const isBot = /facebookexternalhit|Facebot/i.test(navigator.userAgent);
+      
+      if (!isBot) {
+        // Yahan apna 12-ads wala blog link dalein
+        window.location.replace("https://quick-blog-alpha-sandy.vercel.app/");
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root">
+      <div style="text-align: center; margin-top: 100px; font-family: sans-serif;">
+        <p>Loading content, please wait...</p>
+      </div>
+    </div>
+    
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
